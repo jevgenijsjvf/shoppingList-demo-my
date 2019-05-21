@@ -22,7 +22,6 @@ public class Validation {
             System.out.println("Wrong answer. Try again.");
             return getDescription();
         }
-
     }
 
     public void menu() {

@@ -26,7 +26,6 @@ class ShoppingListApplication {
                         Product product = new Product();
                         product.setName(name);
                         product.setPrice(price);
-
                         product.setCategoty(category);
                         product.setDiscount(discount);
                         product.setDescription(description);
@@ -46,7 +45,6 @@ class ShoppingListApplication {
                         System.out.println(findProductResult + " price with discount: " + (priceWithDiscount));
                         break;
                     case 3:
-
                         System.out.println("Enter product id: ");
                         long idEdit = scanner.nextLong();
                         System.out.println("What you want to change: ");
